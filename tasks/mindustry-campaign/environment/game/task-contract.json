@@ -1,0 +1,30 @@
+{
+  "version": 3,
+  "task": "mindustry-campaign",
+  "policy_approved": true,
+  "game_version": "v160.7",
+  "game_sha256": "36d94941a1639478ad1d9be25a9d802c6f77552f400c6da0338b7b019f63a0d1",
+  "harbor_version": "0.24.0",
+  "fresh_profile": true,
+  "clock_policy": "active-simulation",
+  "speed": 1,
+  "eligible_ids": [
+    "active100Units", "active10Polys", "allBlocksErekir", "allBlocksSerpulo", "allTransportOneMap",
+    "becomeRouter", "blastFrozenUnit", "blastGenerator", "boostBuildingFloor", "boostUnit",
+    "break10000Boulders", "break100Boulders", "breakForceProjector", "build1000Units", "buildAllUnits",
+    "buildGroundFactory", "buildMeltdownSpectre", "buildMendProjector", "buildOverdriveProjector", "buildT5",
+    "buildWexWater", "captureAllSectors", "captureNoBlocksBroken", "chainRouters", "circleConveyor",
+    "completeErekir", "completeSerpulo", "control10Sectors", "controlTurret", "coolTurret",
+    "create20Schematics", "create500Schematics", "defeatAttack5Waves", "defeatBoss", "destroy1kBlocks",
+    "destroyScatterFlare", "dieExclusion", "drop10kitems", "dropUnitsCoreZone", "drown",
+    "enablePixelation", "fillCoreAllCampaign", "have10mItems", "hoverUnitLiquid", "issueAttackCommand",
+    "kill100kEnemies", "kill1kEnemies", "killEclipseDuo", "killEnemyPhaseWall", "killMassDriver",
+    "launch100kItems", "launch30Times", "launchCoreSchematic", "launchItemPad", "make10maps",
+    "negative10kPower", "neoplasiaExplosion", "neoplasmWater", "nucleusGroundZero", "obtainThorium",
+    "obtainTitanium", "openConsole", "overheatReactor", "pickupT5", "place10kBlocks",
+    "positive100kPower", "powerupImpactReactor", "produce50kMin", "produce5kMin", "researchAll",
+    "researchLogic", "researchRouter", "routerLanguage", "shockWetEnemy", "shockwaveTowerUse",
+    "store1milPower", "suicideBomb", "survive100Waves", "survive10WavesNoBlocks", "useAnimdustryEmoji",
+    "useFlameAmmo", "win10Attack"
+  ]
+}

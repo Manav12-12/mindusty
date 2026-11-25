@@ -1,0 +1,33 @@
+schema_version = "1.4"
+
+[task]
+name = "mindustry/mindustry-campaign"
+version = "3.0.0-survive-achieve"
+description = "Container environment for the visual Mindustry campaign task."
+
+[metadata]
+qa_only = false
+task_kind = "mindustry-campaign"
+contract_sha256 = "66841b133bbbe66dd276baeed613dbd8a85eeb93a1b066358e609bb0945f6042"
+runtime_policy_sha256 = "66841b133bbbe66dd276baeed613dbd8a85eeb93a1b066358e609bb0945f6042"
+
+[agent]
+# No total gameplay timeout. Only the host-owned visual controller is permitted.
+
+[environment]
+network_mode = "no-network"
+
+[verifier]
+timeout_sec = 60.0
+environment_mode = "separate"
+network_mode = "no-network"
+
+[verifier.environment]
+network_mode = "no-network"
+
+
+
+[[artifacts]]
+source = "/state/benchmark-export"
+service = "main"
+destination = "trusted-controller"

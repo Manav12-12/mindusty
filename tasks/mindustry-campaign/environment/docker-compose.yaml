@@ -1,0 +1,16 @@
+services:
+  main:
+    build: .
+    network_mode: none
+    depends_on:
+      game:
+        condition: service_healthy
+  game:
+    build: ./game
+    network_mode: none
+    restart: 'no'
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    environment:
+      BENCHMARK_TASK: mindustry-campaign
+      BENCHMARK_PROFILE: "preventive-v2"
